@@ -24,3 +24,11 @@ conn = pymongo.Conection(url)
 ##### 1.5 同步连接redis, 课直接使用redis模块
 
 ##### 1.6异步连接redis, 使用tornado-redis(比较老，依旧可用）
+
+
+### mongodb 增删改查排序
+> insert insert_one insert_many    
+> delete_one delete_many  drop    
+> update_one update_many   
+> find_one find 
+> sort
